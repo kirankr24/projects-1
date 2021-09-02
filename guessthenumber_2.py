@@ -2,8 +2,6 @@ import random
 
 x = int(input("You left side limit is 1 and Enter right side limit: "))
 
-
-
 def guess(x):
     ran_num = random.randint(1,x)
     guess = 0
